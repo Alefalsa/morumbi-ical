@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//morumbi-ical//github.com//
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Agenda do estádio MorumBIS (São Paulo FC). Jogos: fonte ofi
+ cial (saopaulofc.net/calendario-de-jogos). Shows/eventos: extraídos de no
+ tícias oficiais do clube de forma automática — datas marcadas como 'a 
+ confirmar' podem estar incorretas\, sempre confira o link da fonte.
+X-WR-CALNAME:MorumBIS — Jogos e Eventos
+X-WR-TIMEZONE:America/Sao_Paulo
+BEGIN:VEVENT
+SUMMARY:⚽ São Paulo x Coritiba — Brasileirão
+DTSTART;TZID=America/Sao_Paulo:20260815T210000
+DTEND;TZID=America/Sao_Paulo:20260815T233000
+UID:game-2026-08-15-são paulo-coritiba@morumbi-ical
+DESCRIPTION:Competição: Brasileirão\nLocal: MorumBIS
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+UID:show-2026-07-07-política de privacidade de dados@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
+ nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
+ ofc.net/politica-de-privacidade/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+UID:show-2027-03-03-política de privacidade de dados@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
+ nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
+ ofc.net/politica-de-privacidade/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+END:VCALENDAR
