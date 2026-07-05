@@ -33,9 +33,9 @@ STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270304
-DTEND;VALUE=DATE:20270305
-UID:show-2027-03-04-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+UID:show-2027-03-05-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
  nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
  ofc.net/politica-de-privacidade/
