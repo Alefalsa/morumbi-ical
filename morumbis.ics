@@ -20,6 +20,18 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎤 Notícias (a confirmar)
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260712
+UID:show-2026-07-11-notícias@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
+ nConfiança da extração: alta.\nConfirme a data em: https://www.saopaulo
+ fc.net/noticias/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
 DTSTART;VALUE=DATE:20260714
 DTEND;VALUE=DATE:20260715
@@ -33,9 +45,9 @@ STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270310
-DTEND;VALUE=DATE:20270311
-UID:show-2027-03-10-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+UID:show-2027-03-11-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
  nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
  ofc.net/politica-de-privacidade/
