@@ -33,28 +33,12 @@ STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270317
-DTEND;VALUE=DATE:20270318
-UID:show-2027-03-17-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+UID:show-2027-03-18-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
  nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
  ofc.net/politica-de-privacidade/
-LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
-  - SP
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎤 Ingressos para São Paulo x Athletico Paranaense\, pelo Brasi
- leirãoConfira as informações sobre a venda de ingressos para a partida 
- entre São Paulo x Athletico Paranaense\,... (a confirmar)
-DTSTART;VALUE=DATE:20270714
-DTEND;VALUE=DATE:20270715
-UID:show-2027-07-14-ingressos para são paulo x athletico paranaense\, pel
- o brasileirãoconfira as informações sobre a venda de ingressos para a p
- artida entre são paulo x athletico paranaense\,...@morumbi-ical
-DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
- nConfiança da extração: alta.\nConfirme a data em: https://www.saopaulo
- fc.net/ingressos-para-sao-paulo-x-athletico-paranaense-pelo-brasileirao/
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:TENTATIVE
