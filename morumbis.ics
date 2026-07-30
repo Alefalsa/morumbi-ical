@@ -20,6 +20,18 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎤❓ Futebol Masculino Profissional (a confirmar)
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+UID:show-2026-07-29-futebol masculino profissional@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
+ nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
+ ofc.net/esporte/futebol-masculino-profissional/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
 DTSTART;VALUE=DATE:20260804
 DTEND;VALUE=DATE:20260805
@@ -33,9 +45,9 @@ STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270329
-DTEND;VALUE=DATE:20270330
-UID:show-2027-03-29-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+UID:show-2027-03-30-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
  nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
  ofc.net/politica-de-privacidade/
