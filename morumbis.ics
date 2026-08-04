@@ -20,10 +20,20 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:⚽ São Paulo x Bolívar-BOL — CONMEBOL Sul-Americana
+DTSTART;TZID=America/Sao_Paulo:20260818T213000
+DTEND;TZID=America/Sao_Paulo:20260819T000000
+UID:game-2026-08-18-são paulo-bolívar-bol@morumbi-ical
+DESCRIPTION:Competição: CONMEBOL Sul-Americana\nLocal: MorumBIS
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20260804
-DTEND;VALUE=DATE:20260805
-UID:show-2026-08-04-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+UID:show-2026-08-11-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
  nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
  ofc.net/politica-de-privacidade/
@@ -32,10 +42,45 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎤❓ New Balance e São Paulo FC apresentam a nova camisa Third
+  para a temporada 2026Inspirado em elementos da alfaiataria\, o novo unifo
+ rme combina elegância\, versatilidade e performance para acompanhar o tor
+ cedor... (a confirmar)
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+UID:show-2026-08-28-new balance e são paulo fc apresentam a nova camisa t
+ hird para a temporada 2026inspirado em elementos da alfaiataria\, o novo u
+ niforme combina elegância\, versatilidade e performance para acompanhar o
+  torcedor...@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
+ nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
+ ofc.net/new-balance-e-sao-paulo-fc-apresentam-a-nova-camisa-third-para-a-t
+ emporada-2026/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤 Ingressos para São Paulo x Coritiba\, pelo BrasileirãoConfi
+ ra as informações sobre a venda de ingressos para a partida entre São P
+ aulo x Coritiba\, no... (a confirmar)
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+UID:show-2026-08-28-ingressos para são paulo x coritiba\, pelo brasileir
+ ãoconfira as informações sobre a venda de ingressos para a partida entr
+ e são paulo x coritiba\, no...@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
+ nConfiança da extração: alta.\nConfirme a data em: https://www.saopaulo
+ fc.net/ingressos-para-sao-paulo-x-coritiba-pelo-brasileirao/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270302
-DTEND;VALUE=DATE:20270303
-UID:show-2027-03-02-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+UID:show-2027-03-04-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
  nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
  ofc.net/politica-de-privacidade/
