@@ -10,21 +10,22 @@ X-WR-CALDESC:Agenda do estádio MorumBIS (São Paulo FC). Jogos: fonte ofi
 X-WR-CALNAME:MorumBIS — Jogos e Eventos
 X-WR-TIMEZONE:America/Sao_Paulo
 BEGIN:VEVENT
-SUMMARY:⚽ Brasileirão 2026 x Coritiba — Brasileirão
-DTSTART;TZID=America/Sao_Paulo:20260815T210000
-DTEND;TZID=America/Sao_Paulo:20260815T233000
-UID:game-2026-08-15-brasileirão 2026-coritiba@morumbi-ical
-DESCRIPTION:Competição: Brasileirão\nLocal: MorumBIS
+SUMMARY:⚽ CONMEBOL Sul-Americana 2026 x Bolívar-BOL — CONMEBOL Sul-Am
+ ericana
+DTSTART;TZID=America/Sao_Paulo:20260818T213000
+DTEND;TZID=America/Sao_Paulo:20260819T000000
+UID:game-2026-08-18-conmebol sul-americana 2026-bolívar-bol@morumbi-ical
+DESCRIPTION:Competição: CONMEBOL Sul-Americana\nLocal: MorumBIS
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ São Paulo x Coritiba — Brasileirão
+SUMMARY:⚽ São Paulo x Saiba Mais — Brasileirão
 DTSTART;TZID=America/Sao_Paulo:20260815T210000
 DTEND;TZID=America/Sao_Paulo:20260815T233000
-UID:game-2026-08-15-são paulo-coritiba@morumbi-ical
-DESCRIPTION:Competição: Brasileirão\nLocal: MorumBIS
+UID:game-2026-08-15-são paulo-saiba mais@morumbi-ical
+DESCRIPTION:Competição: Brasileirão\nLocal: MorumBIS\nPlacar: 1 x 1
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:CONFIRMED
@@ -52,10 +53,27 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎤❓ Elenco se reapresenta e inicia preparação para enfrentar
+  o Bolívar (BOL)O elenco se reapresentou neste domingo (9)\, no SuperCT\,
+  após o duelo com o Grêmio pelo Brasileirão\,... (a confirmar)
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+UID:show-2026-09-16-elenco se reapresenta e inicia preparação para enfre
+ ntar o bolívar (bol)o elenco se reapresentou neste domingo (9)\, no super
+ ct\, após o duelo com o grêmio pelo brasileirão\,...@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
+ nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
+ ofc.net/elenco-se-reapresenta-e-inicia-preparacao-para-enfrentar-o-bolivar
+ -bol/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270315
-DTEND;VALUE=DATE:20270316
-UID:show-2027-03-15-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+UID:show-2027-03-16-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
  nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
  ofc.net/politica-de-privacidade/
