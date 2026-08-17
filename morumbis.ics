@@ -41,6 +41,18 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎤❓ Futebol Masculino Profissional (a confirmar)
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
+UID:show-2026-08-16-futebol masculino profissional@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
+ nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
+ ofc.net/esporte/futebol-masculino-profissional/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
@@ -53,27 +65,10 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎤❓ Elenco se reapresenta e inicia preparação para enfrentar
-  o Bolívar (BOL)O elenco se reapresentou neste domingo (9)\, no SuperCT\,
-  após o duelo com o Grêmio pelo Brasileirão\,... (a confirmar)
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20260917
-UID:show-2026-09-16-elenco se reapresenta e inicia preparação para enfre
- ntar o bolívar (bol)o elenco se reapresentou neste domingo (9)\, no super
- ct\, após o duelo com o grêmio pelo brasileirão\,...@morumbi-ical
-DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
- nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
- ofc.net/elenco-se-reapresenta-e-inicia-preparacao-para-enfrentar-o-bolivar
- -bol/
-LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
-  - SP
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270316
-DTEND;VALUE=DATE:20270317
-UID:show-2027-03-16-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+UID:show-2027-03-17-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
  nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
  ofc.net/politica-de-privacidade/
