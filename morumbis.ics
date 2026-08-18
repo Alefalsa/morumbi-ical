@@ -21,16 +21,6 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ São Paulo x Saiba Mais — Brasileirão
-DTSTART;TZID=America/Sao_Paulo:20260815T210000
-DTEND;TZID=America/Sao_Paulo:20260815T233000
-UID:game-2026-08-15-são paulo-saiba mais@morumbi-ical
-DESCRIPTION:Competição: Brasileirão\nLocal: MorumBIS\nPlacar: 1 x 1
-LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
-  - SP
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:⚽ São Paulo x Bolívar-BOL — CONMEBOL Sul-Americana
 DTSTART;TZID=America/Sao_Paulo:20260818T213000
 DTEND;TZID=America/Sao_Paulo:20260819T000000
@@ -41,22 +31,10 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎤❓ Futebol Masculino Profissional (a confirmar)
-DTSTART;VALUE=DATE:20260816
-DTEND;VALUE=DATE:20260817
-UID:show-2026-08-16-futebol masculino profissional@morumbi-ical
-DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
- nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
- ofc.net/esporte/futebol-masculino-profissional/
-LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
-  - SP
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20260818
-DTEND;VALUE=DATE:20260819
-UID:show-2026-08-18-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+UID:show-2026-08-25-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
  nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
  ofc.net/politica-de-privacidade/
@@ -66,9 +44,9 @@ STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270317
-DTEND;VALUE=DATE:20270318
-UID:show-2027-03-17-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+UID:show-2027-03-18-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
  nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
  ofc.net/politica-de-privacidade/
