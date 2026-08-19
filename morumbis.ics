@@ -10,22 +10,12 @@ X-WR-CALDESC:Agenda do estádio MorumBIS (São Paulo FC). Jogos: fonte ofi
 X-WR-CALNAME:MorumBIS — Jogos e Eventos
 X-WR-TIMEZONE:America/Sao_Paulo
 BEGIN:VEVENT
-SUMMARY:⚽ CONMEBOL Sul-Americana 2026 x Bolívar-BOL — CONMEBOL Sul-Am
- ericana
+SUMMARY:⚽ São Paulo x Saiba Mais — CONMEBOL Sul-Americana
 DTSTART;TZID=America/Sao_Paulo:20260818T213000
 DTEND;TZID=America/Sao_Paulo:20260819T000000
-UID:game-2026-08-18-conmebol sul-americana 2026-bolívar-bol@morumbi-ical
-DESCRIPTION:Competição: CONMEBOL Sul-Americana\nLocal: MorumBIS
-LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
-  - SP
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:⚽ São Paulo x Bolívar-BOL — CONMEBOL Sul-Americana
-DTSTART;TZID=America/Sao_Paulo:20260818T213000
-DTEND;TZID=America/Sao_Paulo:20260819T000000
-UID:game-2026-08-18-são paulo-bolívar-bol@morumbi-ical
-DESCRIPTION:Competição: CONMEBOL Sul-Americana\nLocal: MorumBIS
+UID:game-2026-08-18-são paulo-saiba mais@morumbi-ical
+DESCRIPTION:Competição: CONMEBOL Sul-Americana\nLocal: MorumBIS\nPlacar:
+  3 x 1
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:CONFIRMED
@@ -44,9 +34,9 @@ STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270318
-DTEND;VALUE=DATE:20270319
-UID:show-2027-03-18-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+UID:show-2027-03-19-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
  nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
  ofc.net/politica-de-privacidade/
