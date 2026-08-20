@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALDESC:Agenda do estádio MorumBIS (São Paulo FC). Jogos: fonte ofi
  cial (saopaulofc.net/calendario-de-jogos). Shows/eventos: extraídos de no
  tícias oficiais do clube de forma automática — datas marcadas como 'a 
- confirmar' podem estar incorretas\, sempre confira o link da fonte.
+ confirmar' podem estar incorretas, sempre confira o link da fonte.
 X-WR-CALNAME:MorumBIS — Jogos e Eventos
 X-WR-TIMEZONE:America/Sao_Paulo
 BEGIN:VEVENT
@@ -25,21 +25,21 @@ SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
 DTSTART;VALUE=DATE:20260825
 DTEND;VALUE=DATE:20260826
 UID:show-2026-08-25-política de privacidade de dados@morumbi-ical
-DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
- nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
- ofc.net/politica-de-privacidade/
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
+ \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
+ lofc.net/politica-de-privacidade/
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270319
-DTEND;VALUE=DATE:20270320
-UID:show-2027-03-19-política de privacidade de dados@morumbi-ical
-DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.\
- nConfiança da extração: media.\nConfirme a data em: https://www.saopaul
- ofc.net/politica-de-privacidade/
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+UID:show-2027-03-20-política de privacidade de dados@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
+ \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
+ lofc.net/politica-de-privacidade/
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:TENTATIVE
