@@ -10,15 +10,16 @@ X-WR-CALDESC:Agenda do estádio MorumBIS (São Paulo FC). Jogos: fonte ofi
 X-WR-CALNAME:MorumBIS — Jogos e Eventos
 X-WR-TIMEZONE:America/Sao_Paulo
 BEGIN:VEVENT
-SUMMARY:⚽ São Paulo x Saiba Mais — CONMEBOL Sul-Americana
-DTSTART;TZID=America/Sao_Paulo:20260818T213000
-DTEND;TZID=America/Sao_Paulo:20260819T000000
-UID:game-2026-08-18-são paulo-saiba mais@morumbi-ical
-DESCRIPTION:Competição: CONMEBOL Sul-Americana\nLocal: MorumBIS\nPlacar:
-  3 x 1
+SUMMARY:🎤❓ Notícias (a confirmar)
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+UID:show-2026-08-21-notícias@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
+ \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
+ lofc.net/noticias/
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
-STATUS:CONFIRMED
+STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
@@ -34,9 +35,9 @@ STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270320
-DTEND;VALUE=DATE:20270321
-UID:show-2027-03-20-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+UID:show-2027-03-21-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
  \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
  lofc.net/politica-de-privacidade/
