@@ -40,6 +40,16 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:⚽ São Paulo x Boca Juniors-ARG — CONMEBOL Sul-Americana
+DTSTART;TZID=America/Sao_Paulo:20260915T213000
+DTEND;TZID=America/Sao_Paulo:20260916T000000
+UID:game-2026-09-15-são paulo-boca juniors-arg@morumbi-ical
+DESCRIPTION:Competição: CONMEBOL Sul-Americana\nLocal: MorumBIS
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
@@ -53,9 +63,9 @@ STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270327
-DTEND;VALUE=DATE:20270328
-UID:show-2027-03-27-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+UID:show-2027-03-28-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
  \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
  lofc.net/politica-de-privacidade/
