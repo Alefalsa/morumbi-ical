@@ -20,16 +20,6 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ São Paulo x Saiba Mais — Brasileirão
-DTSTART;TZID=America/Sao_Paulo:20260829T200000
-DTEND;TZID=America/Sao_Paulo:20260829T223000
-UID:game-2026-08-29-são paulo-saiba mais@morumbi-ical
-DESCRIPTION:Competição: Brasileirão\nLocal: MorumBIS\nPlacar: 2 x 1
-LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
-  - SP
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:⚽ São Paulo x Atlético-MG — Brasileirão
 DTSTART;TZID=America/Sao_Paulo:20260905T183000
 DTEND;TZID=America/Sao_Paulo:20260905T210000
@@ -51,9 +41,9 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
-UID:show-2026-09-01-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+UID:show-2026-09-08-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
  \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
  lofc.net/politica-de-privacidade/
@@ -63,9 +53,9 @@ STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270331
-DTEND;VALUE=DATE:20270401
-UID:show-2027-03-31-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+UID:show-2027-03-01-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
  \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
  lofc.net/politica-de-privacidade/
