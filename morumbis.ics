@@ -40,6 +40,26 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:⚽ São Paulo x Internacional — Brasileirão
+DTSTART;TZID=America/Sao_Paulo:20260919T210000
+DTEND;TZID=America/Sao_Paulo:20260919T233000
+UID:game-2026-09-19-são paulo-internacional@morumbi-ical
+DESCRIPTION:Competição: Brasileirão\nLocal: MorumBIS
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ São Paulo x Vitória — Brasileirão
+DTSTART;TZID=America/Sao_Paulo:20261010T210000
+DTEND;TZID=America/Sao_Paulo:20261010T233000
+UID:game-2026-10-10-são paulo-vitória@morumbi-ical
+DESCRIPTION:Competição: Brasileirão\nLocal: MorumBIS
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
@@ -53,12 +73,24 @@ STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270301
-DTEND;VALUE=DATE:20270302
-UID:show-2027-03-01-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+UID:show-2027-03-02-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
  \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
  lofc.net/politica-de-privacidade/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤❓ Futebol Feminino (a confirmar)
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+UID:show-2027-05-02-futebol feminino@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
+ \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
+ lofc.net/esporte/futebol-feminino/
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:TENTATIVE
