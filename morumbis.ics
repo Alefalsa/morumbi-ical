@@ -50,6 +50,18 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎤❓ Leia agora (a confirmar)
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+UID:show-2026-09-07-leia agora@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
+ \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
+ lofc.net/integrantes-de-comissao-de-esporte-da-camara-visitam-o-cfa/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
@@ -65,9 +77,9 @@ BEGIN:VEVENT
 SUMMARY:🎤❓ Ingressos para São Paulo x Grêmio\, pelo Brasileirão Fe
  mininoNeste sábado (5)\, o São Paulo recebe o Grêmio pelo jogo de volta
   das quartas de final... (a confirmar)
-DTSTART;VALUE=DATE:20270109
-DTEND;VALUE=DATE:20270110
-UID:show-2027-01-09-ingressos para são paulo x grêmio\, pelo brasileirã
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+UID:show-2026-09-14-ingressos para são paulo x grêmio\, pelo brasileirã
  o femininoneste sábado (5)\, o são paulo recebe o grêmio pelo jogo de v
  olta das quartas de final...@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
@@ -79,9 +91,9 @@ STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270306
-DTEND;VALUE=DATE:20270307
-UID:show-2027-03-06-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+UID:show-2027-03-07-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
  \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
  lofc.net/politica-de-privacidade/
@@ -93,14 +105,26 @@ BEGIN:VEVENT
 SUMMARY:🎤❓ Ingressos para São Paulo x Grêmio\, pelo Brasileirão Fe
  mininoNeste sábado (5)\, o São Paulo recebe o Grêmio pelo jogo de volta
   das quartas de final... (a confirmar)
-DTSTART;VALUE=DATE:20270506
-DTEND;VALUE=DATE:20270507
-UID:show-2027-05-06-ingressos para são paulo x grêmio\, pelo brasileirã
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+UID:show-2027-05-07-ingressos para são paulo x grêmio\, pelo brasileirã
  o femininoneste sábado (5)\, o são paulo recebe o grêmio pelo jogo de v
  olta das quartas de final...@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
  \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
  lofc.net/ingressos-para-sao-paulo-x-gremio-pelo-brasileirao-feminino/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤❓ Leia agora (a confirmar)
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+UID:show-2027-05-07-leia agora@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
+ \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
+ lofc.net/integrantes-de-comissao-de-esporte-da-camara-visitam-o-cfa/
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:TENTATIVE
