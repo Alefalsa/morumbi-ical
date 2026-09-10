@@ -53,28 +53,12 @@ STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270309
-DTEND;VALUE=DATE:20270310
-UID:show-2027-03-09-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+UID:show-2027-03-10-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
  \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
  lofc.net/politica-de-privacidade/
-LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
-  - SP
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎤❓ Ingressos para São Paulo x Internacional\, pelo Brasileir
- ãoConfira as informações e preços dos ingressos para o duelo entre Sã
- o Paulo e Internacional\, pelo Brasileirão\,... (a confirmar)
-DTSTART;VALUE=DATE:20270509
-DTEND;VALUE=DATE:20270510
-UID:show-2027-05-09-ingressos para são paulo x internacional\, pelo brasi
- leirãoconfira as informações e preços dos ingressos para o duelo entre
-  são paulo e internacional\, pelo brasileirão\,...@morumbi-ical
-DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
- \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
- lofc.net/ingressos-para-sao-paulo-x-internacional-pelo-brasileirao-3/
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:TENTATIVE
