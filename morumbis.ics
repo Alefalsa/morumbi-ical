@@ -20,11 +20,12 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ São Paulo x Boca Juniors-ARG — CONMEBOL Sul-Americana
+SUMMARY:⚽ São Paulo x Saiba Mais — CONMEBOL Sul-Americana
 DTSTART;TZID=America/Sao_Paulo:20260915T213000
 DTEND;TZID=America/Sao_Paulo:20260916T000000
-UID:game-2026-09-15-são paulo-boca juniors-arg@morumbi-ical
-DESCRIPTION:Competição: CONMEBOL Sul-Americana\nLocal: MorumBIS
+UID:game-2026-09-15-são paulo-saiba mais@morumbi-ical
+DESCRIPTION:Competição: CONMEBOL Sul-Americana\nLocal: MorumBIS\nPlacar:
+  1 x 1
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:CONFIRMED
@@ -34,6 +35,16 @@ SUMMARY:⚽ São Paulo x Internacional — Brasileirão
 DTSTART;TZID=America/Sao_Paulo:20260919T210000
 DTEND;TZID=America/Sao_Paulo:20260919T233000
 UID:game-2026-09-19-são paulo-internacional@morumbi-ical
+DESCRIPTION:Competição: Brasileirão\nLocal: MorumBIS
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ São Paulo x Santos — Brasileirão
+DTSTART;TZID=America/Sao_Paulo:20261002T200000
+DTEND;TZID=America/Sao_Paulo:20261002T223000
+UID:game-2026-10-02-são paulo-santos@morumbi-ical
 DESCRIPTION:Competição: Brasileirão\nLocal: MorumBIS
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
@@ -50,6 +61,54 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎤❓ Notícias (a confirmar)
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+UID:show-2026-09-15-notícias@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
+ \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
+ lofc.net/noticias/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤❓ Futebol Masculino Profissional (a confirmar)
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+UID:show-2026-09-15-futebol masculino profissional@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
+ \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
+ lofc.net/esporte/futebol-masculino-profissional/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤❓ Notícias (a confirmar)
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+UID:show-2026-09-17-notícias@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
+ \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
+ lofc.net/noticias/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤❓ Futebol Feminino (a confirmar)
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+UID:show-2026-09-19-futebol feminino@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
+ \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
+ lofc.net/esporte/futebol-feminino/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
@@ -63,9 +122,9 @@ STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270316
-DTEND;VALUE=DATE:20270317
-UID:show-2027-03-16-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+UID:show-2027-03-17-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
  \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
  lofc.net/politica-de-privacidade/
