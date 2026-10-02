@@ -50,6 +50,36 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎤 Leia agora (a confirmar)
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+UID:show-2026-10-02-leia agora@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
+ \nConfiança da extração: alta.\nConfirme a data em: https://www.saopaul
+ ofc.net/estreando-no-morumbis-dua-lipa-apresenta-sucessos-e-participacoes-
+ brasileiras/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤 Com sábado de treino\, Tricolor encerra primeira etapa de aj
+ ustes para o San-SãoCom treino neste sábado (26)\, no SuperCT\, o São P
+ aulo encerrou a primeira parte da preparação para... (a confirmar)
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+UID:show-2026-10-03-com sábado de treino\, tricolor encerra primeira etap
+ a de ajustes para o san-sãocom treino neste sábado (26)\, no superct\, o
+  são paulo encerrou a primeira parte da preparação para...@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
+ \nConfiança da extração: alta.\nConfirme a data em: https://www.saopaul
+ ofc.net/com-sabado-de-treino-tricolor-encerra-primeira-etapa-de-ajustes-pa
+ ra-o-san-sao/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261007
@@ -62,10 +92,27 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎤 Com sábado de treino\, Tricolor encerra primeira etapa de aj
+ ustes para o San-SãoCom treino neste sábado (26)\, no SuperCT\, o São P
+ aulo encerrou a primeira parte da preparação para... (a confirmar)
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+UID:show-2026-10-26-com sábado de treino\, tricolor encerra primeira etap
+ a de ajustes para o san-sãocom treino neste sábado (26)\, no superct\, o
+  são paulo encerrou a primeira parte da preparação para...@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
+ \nConfiança da extração: alta.\nConfirme a data em: https://www.saopaul
+ ofc.net/com-sabado-de-treino-tricolor-encerra-primeira-etapa-de-ajustes-pa
+ ra-o-san-sao/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270301
-DTEND;VALUE=DATE:20270302
-UID:show-2027-03-01-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+UID:show-2027-03-02-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
  \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
  lofc.net/politica-de-privacidade/
