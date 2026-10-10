@@ -41,9 +41,9 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤❓ CT da Barra Funda (a confirmar)
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261010
-UID:show-2026-10-09-ct da barra funda@morumbi-ical
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+UID:show-2026-10-10-ct da barra funda@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
  \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
  lofc.net/estrutura/superct/
@@ -65,9 +65,9 @@ STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270309
-DTEND;VALUE=DATE:20270310
-UID:show-2027-03-09-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+UID:show-2027-03-10-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
  \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
  lofc.net/politica-de-privacidade/
