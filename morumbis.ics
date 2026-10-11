@@ -10,21 +10,21 @@ X-WR-CALDESC:Agenda do estádio MorumBIS (São Paulo FC). Jogos: fonte ofi
 X-WR-CALNAME:MorumBIS — Jogos e Eventos
 X-WR-TIMEZONE:America/Sao_Paulo
 BEGIN:VEVENT
-SUMMARY:⚽ Brasileirão 2026 x Vitória — Brasileirão
-DTSTART;TZID=America/Sao_Paulo:20261010T210000
-DTEND;TZID=America/Sao_Paulo:20261010T233000
-UID:game-2026-10-10-brasileirão 2026-vitória@morumbi-ical
+SUMMARY:⚽ Brasileirão 2026 x Vasco — Brasileirão
+DTSTART;TZID=America/Sao_Paulo:20261017T210000
+DTEND;TZID=America/Sao_Paulo:20261017T233000
+UID:game-2026-10-17-brasileirão 2026-vasco@morumbi-ical
 DESCRIPTION:Competição: Brasileirão\nLocal: MorumBIS
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ São Paulo x Vitória — Brasileirão
+SUMMARY:⚽ São Paulo x Saiba Mais — Brasileirão
 DTSTART;TZID=America/Sao_Paulo:20261010T210000
 DTEND;TZID=America/Sao_Paulo:20261010T233000
-UID:game-2026-10-10-são paulo-vitória@morumbi-ical
-DESCRIPTION:Competição: Brasileirão\nLocal: MorumBIS
+UID:game-2026-10-10-são paulo-saiba mais@morumbi-ical
+DESCRIPTION:Competição: Brasileirão\nLocal: MorumBIS\nPlacar: 2 x 1
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:CONFIRMED
@@ -40,10 +40,26 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎤 Ingressos para São Paulo x Vasco\, pelo Campeonato Brasileir
+ oConfira as informações sobre a venda de ingressos para a partida entre 
+ São Paulo x Vasco\, no... (a confirmar)
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+UID:show-2026-10-11-ingressos para são paulo x vasco\, pelo campeonato br
+ asileiroconfira as informações sobre a venda de ingressos para a partida
+  entre são paulo x vasco\, no...@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
+ \nConfiança da extração: alta.\nConfirme a data em: https://www.saopaul
+ ofc.net/ingressos-para-sao-paulo-x-vasco-pelo-campeonato-brasileiro/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎤❓ CT da Barra Funda (a confirmar)
-DTSTART;VALUE=DATE:20261010
-DTEND;VALUE=DATE:20261011
-UID:show-2026-10-10-ct da barra funda@morumbi-ical
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+UID:show-2026-10-11-ct da barra funda@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
  \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
  lofc.net/estrutura/superct/
@@ -65,12 +81,28 @@ STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤❓ Política de Privacidade de Dados (a confirmar)
-DTSTART;VALUE=DATE:20270310
-DTEND;VALUE=DATE:20270311
-UID:show-2027-03-10-política de privacidade de dados@morumbi-ical
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+UID:show-2027-03-11-política de privacidade de dados@morumbi-ical
 DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
  \nConfiança da extração: media.\nConfirme a data em: https://www.saopau
  lofc.net/politica-de-privacidade/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤 Ingressos para São Paulo x Vasco\, pelo Campeonato Brasileir
+ oConfira as informações sobre a venda de ingressos para a partida entre 
+ São Paulo x Vasco\, no... (a confirmar)
+DTSTART;VALUE=DATE:20271003
+DTEND;VALUE=DATE:20271004
+UID:show-2027-10-03-ingressos para são paulo x vasco\, pelo campeonato br
+ asileiroconfira as informações sobre a venda de ingressos para a partida
+  entre são paulo x vasco\, no...@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
+ \nConfiança da extração: alta.\nConfirme a data em: https://www.saopaul
+ ofc.net/ingressos-para-sao-paulo-x-vasco-pelo-campeonato-brasileiro/
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:TENTATIVE
