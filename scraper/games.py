@@ -41,6 +41,14 @@ DATE_RE = re.compile(r"\d{2}/\d{2}/\d{4}")
 COMPETITION_YEAR_RE = re.compile(r"^(?P<competicao>.+?)\s+(?P<ano>\d{4})\b")
 SCORE_RE = re.compile(r"^\d{1,2}$")
 
+# Words commonly found in UI elements (buttons, links) that are NOT team names
+UI_NOISE_WORDS = {
+    "saiba mais", "ingressos", "compre", "assista", "transmissão",
+    "ao vivo", "torcida oficial", "bilhete", "convite", "mais",
+    "clique", "acesse", "confira", "saiba", "comprar", "watch",
+    "live", "tickets", "learn", "info", "information",
+}
+
 
 @dataclass
 class GameEvent:
@@ -123,7 +131,10 @@ def _extract_teams_and_score(
     exclude_norm = {e.strip().lower() for e in (exclude or set()) if e}
 
     def _is_real_name(ln: str) -> bool:
-        return bool(ln) and ln.strip().lower() not in exclude_norm
+        normalized = ln.strip().lower()
+        return (bool(ln) and 
+                normalized not in exclude_norm and 
+                normalized not in UI_NOISE_WORDS)
 
     try:
         x_idx = next(i for i, ln in enumerate(lines) if ln.strip().lower() == "x")
@@ -152,7 +163,7 @@ def _extract_teams_and_score(
     # que normalmente carrega o nome do time mesmo quando não há texto
     # visível (ex.: jogos já realizados, onde só aparece o placar).
     img_alts = [img.get("alt", "").strip() for img in card.find_all("img") if img.get("alt")]
-    img_alts = [a for a in img_alts if a]
+    img_alts = [a for a in img_alts if a and a.lower() not in UI_NOISE_WORDS]
     if len(img_alts) >= 2:
         if not home:
             home = img_alts[0]

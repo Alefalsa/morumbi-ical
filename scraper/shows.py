@@ -61,23 +61,43 @@ class ShowEvent:
 
 
 def _post_links_from_listing(html: str) -> list[tuple[str, str]]:
-    """Retorna [(titulo, url)] dos posts listados em uma página de categoria."""
+    """Retorna [(titulo, url)] dos posts listados em uma página de categoria.
+    
+    Filters out non-article links (footer, settings, menu, etc).
+    """
     soup = BeautifulSoup(html, "lxml")
     results = []
     seen = set()
-    for a in soup.find_all("a", href=True):
+    
+    # Try to find actual content area, not footer/nav
+    content = soup.find("main") or soup.find("article")
+    if not content:
+        content = soup
+    
+    for a in content.find_all("a", href=True):
         href = a["href"]
         title = a.get_text(strip=True)
         if not title or len(title) < 8:
             continue
+        
+        # Skip category/index pages
         if "/categoria/" in href or "saopaulofc.net" not in href:
             continue
+        
+        # Skip non-article pages (settings, legal, structures, contact, etc)
+        skip_patterns = [
+            "/politica-", "/privacidade", "/estrutura/", "/contato",
+            "/fale-conosco", "/termos", "/settings", "/config",
+            "/admin", "/login", "/register", "/sobre"
+        ]
+        if any(pattern in href.lower() for pattern in skip_patterns):
+            continue
+        
         if href in seen:
             continue
-        # Heurística: posts de notícia ficam direto sob o domínio,
-        # sem mais um nível de "/categoria/".
         seen.add(href)
         results.append((title, href))
+    
     return results
 
 
@@ -102,12 +122,29 @@ def _fetch_listing_pages(session, max_pages: int) -> list[tuple[str, str]]:
 
 
 def _article_text(session, url: str) -> str:
+    """Extracts main article text, filtering out navigation/footer noise."""
     resp = fetch(url, session=session)
     soup = BeautifulSoup(resp.text, "lxml")
-    # Remove menus/rodapé óbvios para reduzir ruído na busca de datas.
-    for tag in soup.find_all(["nav", "footer", "header", "script", "style"]):
+    
+    # Remove menus/rodapé óbvios
+    for tag in soup.find_all(["nav", "footer", "header", "script", "style", "button"]):
         tag.decompose()
-    main = soup.find("article") or soup.find("main") or soup
+    
+    # Try to find actual article content first
+    article = soup.find("article")
+    if article and len(article.get_text(strip=True)) > 100:
+        return article.get_text(" ", strip=True)
+    
+    # Fallback: get text from divs with class containing "content" or "post"
+    for selector in ["[class*='content']", "[class*='post']", "[class*='article']"]:
+        content = soup.select_one(selector)
+        if content:
+            text = content.get_text(" ", strip=True)
+            if len(text) > 100:
+                return text
+    
+    # Last resort (but less reliable)
+    main = soup.find("main") or soup
     return main.get_text(" ", strip=True)
 
 
@@ -137,6 +174,22 @@ def _preprocess_for_dateparser(text: str) -> str:
 
 
 def _extract_dates(title: str, body: str, published_hint: Optional[datetime]) -> list[date_cls]:
+    """Extracts dates from article text with heavy filtering against false positives.
+    
+    Skips:
+    - Legal/privacy pages (termos, política, privacidade, dados pessoais, cookie)
+    - Very short texts (likely not real articles)
+    - Absurdly far-future dates (> 2 years)
+    - Dates in the past
+    """
+    # Skip if body is too short or looks like legal/policy content
+    if len(body) < 50:
+        return []
+    
+    body_lower = body.lower()
+    if any(w in body_lower for w in ["privacidade", "política", "termos", "cookie", "dados pessoais", "lgpd"]):
+        return []
+    
     text = _preprocess_for_dateparser(f"{title}. {body}")
     settings = {
         "PREFER_DATES_FROM": "future",
@@ -152,16 +205,25 @@ def _extract_dates(title: str, body: str, published_hint: Optional[datetime]) ->
         return []
 
     out = []
+    today = date_cls.today()
+    max_future = today + timedelta(days=730)
+    
     for snippet, dt in found:
         snippet_norm = snippet.strip().lower()
-        # Descarta "datas" extraídas de palavras curtas/comuns (falso positivo
-        # típico do dateparser quando ele tenta interpretar uma palavra
-        # qualquer como expressão relativa de data).
+        # Descarta "datas" extraídas de palavras curtas/comuns
         if len(snippet_norm) < 3 or snippet_norm in _NOISE_SNIPPETS:
             continue
         if _PURE_TIME_RE.match(snippet_norm):
             continue
+        
         d = dt.date() if isinstance(dt, datetime) else dt
+        
+        # Validate: date must be in the future and not absurdly far away
+        if d < today:
+            continue
+        if d > max_future:
+            continue
+            
         out.append(d)
 
     dedup = sorted(set(out))
