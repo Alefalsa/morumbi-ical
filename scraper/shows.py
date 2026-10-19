@@ -31,6 +31,7 @@ import dateparser
 from dateparser.search import search_dates
 
 from .utils import fetch, get_session
+from .ticketed_events import get_all_ticketed_events, TicketedEvent
 
 logger = logging.getLogger("morumbi_ical.shows")
 
@@ -237,6 +238,10 @@ def get_show_candidates(
     """Varre notícias de eventos e retorna candidatos a evento (TENTATIVE).
 
     `min_date`: ignora datas extraídas anteriores a essa data (default: hoje).
+    
+    Returns a combination of:
+    - Shows scraped from official São Paulo FC /categoria/eventos/ (best source)
+    - Ticketed events from external sources like Ticketmaster (when not yet official)
     """
     session = get_session()
     min_date = min_date or date_cls.today()
@@ -247,6 +252,7 @@ def get_show_candidates(
     candidates: list[ShowEvent] = []
     seen_keys = set()
 
+    # First: Official São Paulo FC events
     for title, url in posts:
         try:
             body = _article_text(session, url)
@@ -256,8 +262,6 @@ def get_show_candidates(
 
         text_lower = f"{title} {body}".lower()
         if not any(w in text_lower for w in EVENT_HINT_WORDS):
-            # Sem nenhuma palavra-chave de show/evento: ignora (provavelmente
-            # institucional, aniversário do clube, etc.)
             continue
 
         dates = _extract_dates(title, body, published_hint=None)
@@ -271,6 +275,26 @@ def get_show_candidates(
                 continue
             seen_keys.add(ev.uid_key)
             candidates.append(ev)
+
+    # Second: Ticketed events from external sources (Ticketmaster, manual list, etc)
+    try:
+        ticketed = get_all_ticketed_events(min_date=min_date)
+        logger.info("Ticketed events encontrados: %d", len(ticketed))
+        
+        for t_ev in ticketed:
+            # Convert TicketedEvent to ShowEvent
+            # Note: ics_writer will add 🎤 prefix, so we don't add it here
+            ev = ShowEvent(
+                date=t_ev.date,
+                title=t_ev.title,
+                source_url=f"https://ticketmaster.com.br",  # Fallback URL
+                confidence=t_ev.confidence,
+            )
+            if ev.uid_key not in seen_keys:
+                candidates.append(ev)
+                seen_keys.add(ev.uid_key)
+    except Exception as exc:  # noqa: BLE001
+        logger.warning("Falha ao buscar eventos ticketados: %s", exc)
 
     candidates.sort(key=lambda e: e.date)
     return candidates

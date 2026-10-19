@@ -19,4 +19,40 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤 BTS (a confirmar)
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+UID:show-2026-10-28-bts@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
+ \nConfiança da extração: alta.\nConfirme a data em: https://ticketmaste
+ r.com.br
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤 BTS (a confirmar)
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+UID:show-2026-10-30-bts@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
+ \nConfiança da extração: alta.\nConfirme a data em: https://ticketmaste
+ r.com.br
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤 BTS (a confirmar)
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+UID:show-2026-10-31-bts@morumbi-ical
+DESCRIPTION:Evento extraído automaticamente de notícia oficial do SPFC.
+ \nConfiança da extração: alta.\nConfirme a data em: https://ticketmaste
+ r.com.br
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
 END:VCALENDAR
