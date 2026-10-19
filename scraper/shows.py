@@ -31,7 +31,7 @@ import dateparser
 from dateparser.search import search_dates
 
 from .utils import fetch, get_session
-from .ticketed_events import get_all_ticketed_events, TicketedEvent
+from .ticketed_events import get_all_ticketed_events
 
 logger = logging.getLogger("morumbi_ical.shows")
 
@@ -55,6 +55,8 @@ class ShowEvent:
     title: str
     source_url: str
     confidence: str  # "alta" | "media" | "baixa"
+    source_name: str = "São Paulo FC"
+    note: Optional[str] = None
 
     @property
     def uid_key(self) -> str:
@@ -287,8 +289,10 @@ def get_show_candidates(
             ev = ShowEvent(
                 date=t_ev.date,
                 title=t_ev.title,
-                source_url=f"https://ticketmaster.com.br",  # Fallback URL
+                source_url=t_ev.source_url,
                 confidence=t_ev.confidence,
+                source_name=t_ev.source,
+                note=t_ev.note,
             )
             if ev.uid_key not in seen_keys:
                 candidates.append(ev)

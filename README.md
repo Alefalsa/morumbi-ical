@@ -5,11 +5,12 @@ Gera automaticamente um arquivo `.ics` com:
   (`saopaulofc.net/calendario-de-jogos`). Bem confiável: é a fonte oficial,
   estruturada, com data, horário e local de cada partida.
 - **Shows/eventos não-futebolísticos** — extraídos das notícias da categoria
-  "Eventos" do site oficial (`saopaulofc.net/categoria/eventos`). **Menos
-  confiável**, porque o clube não publica uma agenda futura estruturada de
-  shows — só notícias em texto livre. Esses eventos entram no calendário
-  marcados como `TENTATIVE` (provisórios), com 🎤❓ no título e link da
-  notícia-fonte na descrição, para você confirmar manualmente.
+  "Eventos" do site oficial (`saopaulofc.net/categoria/eventos`) e de fontes
+  externas cadastradas em `scraper/ticketed_events.py`. **Menos confiável**,
+  porque o clube não publica uma agenda futura estruturada de shows. Esses
+  eventos entram no calendário marcados como `TENTATIVE` (provisórios), com
+  o link da fonte e, quando disponível, avisos de trânsito e bloqueios viários
+  na descrição.
 
 Um GitHub Actions roda isso todo dia e commita o `.ics` atualizado no
 repositório, então você assina a URL do arquivo no Google Calendar / Apple
@@ -70,6 +71,7 @@ python build_ics.py --no-shows          # só jogos (mais confiável)
 python -m scraper.games                 # só testa/imprime os jogos no MorumBIS
 python -m scraper.games --debug         # imprime TODOS os jogos (não só MorumBIS), em JSON
 python -m scraper.shows --debug         # imprime os candidatos a show, em JSON
+python -m scraper.ticketed_events       # mostra eventos de fontes externas
 ```
 
 ## Se o site oficial mudar de estrutura (scraper para de achar jogos)

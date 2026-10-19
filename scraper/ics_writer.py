@@ -60,10 +60,14 @@ def _add_show_event(cal: Calendar, s: ShowEvent) -> None:
     ev.add("summary", f"{confidence_emoji} {s.title} (a confirmar)")
     ev.add("dtstart", s.date)
     ev.add("dtend", s.date + timedelta(days=1))
-    ev.add("description",
-           f"Evento extraído automaticamente de notícia oficial do SPFC.\n"
-           f"Confiança da extração: {s.confidence}.\n"
-           f"Confirme a data em: {s.source_url}")
+    desc_lines = [
+        f"Fonte: {s.source_name}.",
+        f"Confiança da informação: {s.confidence}.",
+    ]
+    if s.note:
+        desc_lines.append(s.note)
+    desc_lines.append(f"Mais informações: {s.source_url}")
+    ev.add("description", "\n".join(desc_lines))
     ev.add("location", "Estádio MorumBIS, Praça Roberto Gomes Pedrosa, 1, São Paulo - SP")
     ev.add("status", "TENTATIVE")
     cal.add_component(ev)

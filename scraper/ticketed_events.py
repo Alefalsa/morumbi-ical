@@ -38,7 +38,17 @@ KNOWN_CONCERTS = [
     {
         "title": "BTS",
         "dates": ["2026-10-28", "2026-10-30", "2026-10-31"],
-        "source": "G1 Globo, confirmed by São Paulo FC",
+        "source": "G1",
+        "source_url": (
+            "https://g1.globo.com/sp/sao-paulo/noticia/2026/10/13/"
+            "bts-em-sao-paulo-ruas-perto-do-morumbis-serao-bloqueadas-"
+            "nos-dias-de-shows-confira-como-funcionara-o-acesso.ghtml"
+        ),
+        "note": (
+            "ALERTA DE TRÂNSITO: haverá bloqueios de ruas no entorno do "
+            "MorumBIS nos dias dos shows. A triagem do público começa às 8h "
+            "e o acesso à região exigirá ingresso ou cadastro de morador."
+        ),
         "confidence": "alta",
     },
 ]
@@ -50,8 +60,10 @@ class TicketedEvent:
     date: date_cls
     title: str
     source: str
+    source_url: str
     confidence: str  # "alta" | "media" | "baixa"
     venue: str = "MorumBIS"
+    note: Optional[str] = None
 
     @property
     def uid_key(self) -> str:
@@ -136,6 +148,7 @@ def get_ticketmaster_events(venue_name: str = "Morumbis") -> list[TicketedEvent]
                 date=event_date,
                 title=title,
                 source="Ticketmaster",
+                source_url=event.get("url", "https://www.ticketmaster.com.br/"),
                 confidence="alta",
                 venue=venue,
             )
@@ -171,6 +184,8 @@ def get_manually_curated_events(
     for concert in KNOWN_CONCERTS:
         title = concert.get("title", "Unknown")
         source = concert.get("source", "Manual curation")
+        source_url = concert.get("source_url", "")
+        note = concert.get("note")
         confidence = concert.get("confidence", "media")
         
         for date_str in concert.get("dates", []):
@@ -187,7 +202,9 @@ def get_manually_curated_events(
                 date=event_date,
                 title=title,
                 source=source,
+                source_url=source_url,
                 confidence=confidence,
+                note=note,
             )
             events.append(ev)
     
