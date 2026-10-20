@@ -10,16 +10,6 @@ X-WR-CALDESC:Agenda do estádio MorumBIS (São Paulo FC). Jogos: fonte ofi
 X-WR-CALNAME:MorumBIS — Jogos e Eventos
 X-WR-TIMEZONE:America/Sao_Paulo
 BEGIN:VEVENT
-SUMMARY:⚽ São Paulo x Vasco — Brasileirão
-DTSTART;TZID=America/Sao_Paulo:20261017T210000
-DTEND;TZID=America/Sao_Paulo:20261017T233000
-UID:game-2026-10-17-são paulo-vasco@morumbi-ical
-DESCRIPTION:Competição: Brasileirão\nLocal: MorumBIS\nPlacar: 1 x 0
-LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
-  - SP
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎤 BTS (a confirmar)
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
