@@ -39,4 +39,48 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:TENTATIVE
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤 Leia agora (a confirmar)
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+UID:show-2026-11-01-leia agora@morumbi-ical
+DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
+  informações: https://www.saopaulofc.net/estreando-no-morumbis-dua-lipa-
+ apresenta-sucessos-e-participacoes-brasileiras/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤 Sub-20 sofre revés no primeiro jogo das quartas de final do 
+ PaulistaNesta segunda-feira (26)\, o São Paulo sofreu um revés por 3 a 2
+  para o Palmeiras\, no... (a confirmar)
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+UID:show-2026-11-26-sub-20 sofre revés no primeiro jogo das quartas de fi
+ nal do paulistanesta segunda-feira (26)\, o são paulo sofreu um revés po
+ r 3 a 2 para o palmeiras\, no...@morumbi-ical
+DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
+  informações: https://www.saopaulofc.net/sub-20-sofre-reves-no-primeiro-
+ jogo-das-quartas-de-final-do-paulista/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤 Pelo Brasileirão\, Tricolor enfrenta o Bahia na Arena Fonte 
+ NovaO São Paulo enfrentará o Bahia na noite desta quarta-feira (28)\, à
+ s 21h30\, na Arena Fonte Nova\,... (a confirmar)
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+UID:show-2026-11-28-pelo brasileirão\, tricolor enfrenta o bahia na arena
+  fonte novao são paulo enfrentará o bahia na noite desta quarta-feira (2
+ 8)\, às 21h30\, na arena fonte nova\,...@morumbi-ical
+DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
+  informações: https://www.saopaulofc.net/pelo-brasileirao-tricolor-enfre
+ nta-o-bahia-na-arena-fonte-nova/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
 END:VCALENDAR
