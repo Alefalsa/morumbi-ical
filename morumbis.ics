@@ -11,21 +11,6 @@ X-WR-CALNAME:MorumBIS — Jogos e Eventos
 X-WR-TIMEZONE:America/Sao_Paulo
 BEGIN:VEVENT
 SUMMARY:🎤 BTS (a confirmar)
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-UID:show-2026-10-30-bts@morumbi-ical
-DESCRIPTION:Fonte: G1.\nConfiança da informação: alta.\nALERTA DE TRÂN
- SITO: haverá bloqueios de ruas no entorno do MorumBIS nos dias dos shows.
-  A triagem do público começa às 8h e o acesso à região exigirá ingre
- sso ou cadastro de morador.\nMais informações: https://g1.globo.com/sp/s
- ao-paulo/noticia/2026/10/13/bts-em-sao-paulo-ruas-perto-do-morumbis-serao-
- bloqueadas-nos-dias-de-shows-confira-como-funcionara-o-acesso.ghtml
-LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
-  - SP
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎤 BTS (a confirmar)
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 UID:show-2026-10-31-bts@morumbi-ical
@@ -41,12 +26,28 @@ STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤 Leia agora (a confirmar)
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-UID:show-2026-11-01-leia agora@morumbi-ical
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+UID:show-2026-11-02-leia agora@morumbi-ical
 DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
   informações: https://www.saopaulofc.net/estreando-no-morumbis-dua-lipa-
  apresenta-sucessos-e-participacoes-brasileiras/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤 Tricolor abre a semana com foco no duelo com o Bahia pelo Bra
+ sileirãoApós o empate com o Mirassol por 1 a 1 no último sábado (24)\,
+  no interior paulista\,... (a confirmar)
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+UID:show-2026-11-24-tricolor abre a semana com foco no duelo com o bahia p
+ elo brasileirãoapós o empate com o mirassol por 1 a 1 no último sábado
+  (24)\, no interior paulista\,...@morumbi-ical
+DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
+  informações: https://www.saopaulofc.net/tricolor-abre-a-semana-com-foco
+ -no-duelo-com-o-bahia-pelo-brasileirao/
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:TENTATIVE
