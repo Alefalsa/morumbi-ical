@@ -10,60 +10,13 @@ X-WR-CALDESC:Agenda do estádio MorumBIS (São Paulo FC). Jogos: fonte ofi
 X-WR-CALNAME:MorumBIS — Jogos e Eventos
 X-WR-TIMEZONE:America/Sao_Paulo
 BEGIN:VEVENT
-SUMMARY:🎤 BTS (a confirmar)
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-UID:show-2026-10-31-bts@morumbi-ical
-DESCRIPTION:Fonte: G1.\nConfiança da informação: alta.\nALERTA DE TRÂN
- SITO: haverá bloqueios de ruas no entorno do MorumBIS nos dias dos shows.
-  A triagem do público começa às 8h e o acesso à região exigirá ingre
- sso ou cadastro de morador.\nMais informações: https://g1.globo.com/sp/s
- ao-paulo/noticia/2026/10/13/bts-em-sao-paulo-ruas-perto-do-morumbis-serao-
- bloqueadas-nos-dias-de-shows-confira-como-funcionara-o-acesso.ghtml
-LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
-  - SP
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎤 Leia agora (a confirmar)
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-UID:show-2026-11-02-leia agora@morumbi-ical
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+UID:show-2026-11-03-leia agora@morumbi-ical
 DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
   informações: https://www.saopaulofc.net/estreando-no-morumbis-dua-lipa-
  apresenta-sucessos-e-participacoes-brasileiras/
-LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
-  - SP
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎤 Tricolor abre a semana com foco no duelo com o Bahia pelo Bra
- sileirãoApós o empate com o Mirassol por 1 a 1 no último sábado (24)\,
-  no interior paulista\,... (a confirmar)
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-UID:show-2026-11-24-tricolor abre a semana com foco no duelo com o bahia p
- elo brasileirãoapós o empate com o mirassol por 1 a 1 no último sábado
-  (24)\, no interior paulista\,...@morumbi-ical
-DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
-  informações: https://www.saopaulofc.net/tricolor-abre-a-semana-com-foco
- -no-duelo-com-o-bahia-pelo-brasileirao/
-LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
-  - SP
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎤 Sub-20 sofre revés no primeiro jogo das quartas de final do 
- PaulistaNesta segunda-feira (26)\, o São Paulo sofreu um revés por 3 a 2
-  para o Palmeiras\, no... (a confirmar)
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-UID:show-2026-11-26-sub-20 sofre revés no primeiro jogo das quartas de fi
- nal do paulistanesta segunda-feira (26)\, o são paulo sofreu um revés po
- r 3 a 2 para o palmeiras\, no...@morumbi-ical
-DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
-  informações: https://www.saopaulofc.net/sub-20-sofre-reves-no-primeiro-
- jogo-das-quartas-de-final-do-paulista/
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:TENTATIVE
@@ -80,6 +33,38 @@ UID:show-2026-11-28-pelo brasileirão\, tricolor enfrenta o bahia na arena
 DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
   informações: https://www.saopaulofc.net/pelo-brasileirao-tricolor-enfre
  nta-o-bahia-na-arena-fonte-nova/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤 Na Arena Fonte Nova\, São Paulo sofre revés para o Bahia pe
+ lo BrasileirãoNesta quarta-feira (28)\, o São Paulo foi superado pelo Ba
+ hia por 3 a 2\, na Arena Fonte... (a confirmar)
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+UID:show-2026-11-28-na arena fonte nova\, são paulo sofre revés para o b
+ ahia pelo brasileirãonesta quarta-feira (28)\, o são paulo foi superado 
+ pelo bahia por 3 a 2\, na arena fonte...@morumbi-ical
+DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
+  informações: https://www.saopaulofc.net/na-arena-fonte-nova-sao-paulo-s
+ ofre-reves-para-o-bahia-pelo-brasileirao/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤 Fora de casa\, Sub-20 vence o primeiro jogo das quartas de fi
+ nal da Copa do BrasilNa tarde desta quinta-feira (29)\, o Sub-20 venceu o 
+ Ceará por 2 a 1\, no Estádio Presidente... (a confirmar)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+UID:show-2026-11-29-fora de casa\, sub-20 vence o primeiro jogo das quarta
+ s de final da copa do brasilna tarde desta quinta-feira (29)\, o sub-20 ve
+ nceu o ceará por 2 a 1\, no estádio presidente...@morumbi-ical
+DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
+  informações: https://www.saopaulofc.net/fora-de-casa-sub-20-vence-o-pri
+ meiro-jogo-das-quartas-de-final-da-copa-do-brasil/
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:TENTATIVE
