@@ -30,17 +30,61 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎤 Ingressos para São Paulo x Fluminense\, pelo Campeonato Bras
- ileiroVeja as informações sobre a venda de ingressos para mais uma parti
- da do Tricolor no MorumBIS SÃO... (a confirmar)
-DTSTART;VALUE=DATE:20270410
-DTEND;VALUE=DATE:20270411
-UID:show-2027-04-10-ingressos para são paulo x fluminense\, pelo campeona
- to brasileiroveja as informações sobre a venda de ingressos para mais um
- a partida do tricolor no morumbis são...@morumbi-ical
+SUMMARY:🎤 Leia agora (a confirmar)
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+UID:show-2026-11-11-leia agora@morumbi-ical
 DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
-  informações: https://www.saopaulofc.net/ingressos-para-sao-paulo-x-flum
- inense-pelo-campeonato-brasileiro/
+  informações: https://www.saopaulofc.net/estreando-no-morumbis-dua-lipa-
+ apresenta-sucessos-e-participacoes-brasileiras/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤 Em período de Data FIFA\, Tricolor disputa amistoso em Bauru
+ Durante a pausa do Campeonato Brasileiro para a última Data FIFA de 2026
+ \, o São Paulo disputará... (a confirmar)
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+UID:show-2026-11-11-em período de data fifa\, tricolor disputa amistoso e
+ m baurudurante a pausa do campeonato brasileiro para a última data fifa d
+ e 2026\, o são paulo disputará...@morumbi-ical
+DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
+  informações: https://www.saopaulofc.net/em-periodo-de-data-fifa-tricolo
+ r-disputa-amistoso-em-bauru/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤 Sub-20 enfrenta o Ceará de olho em vaga na semifinal da Copa
+  do BrasilO time Sub-20 do São Paulo enfrenta o Ceará nesta quinta-feira
+ \, às 15h\, no CFA Laudo Natel\,... (a confirmar)
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+UID:show-2026-11-15-sub-20 enfrenta o ceará de olho em vaga na semifinal 
+ da copa do brasilo time sub-20 do são paulo enfrenta o ceará nesta quint
+ a-feira\, às 15h\, no cfa laudo natel\,...@morumbi-ical
+DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
+  informações: https://www.saopaulofc.net/sub-20-enfrenta-o-ceara-de-olho
+ -em-vaga-na-semifinal-da-copa-do-brasil/
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎤 Na Vila Belmiro\, São Paulo empata com Corinthians pelo Bras
+ ileirãoNesta quarta-feira (04)\, o São Paulo empatou com o Corinthians p
+ or 0 a 0\, na Vila Belmiro\,... (a confirmar)
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+UID:show-2027-04-11-na vila belmiro\, são paulo empata com corinthians pe
+ lo brasileirãonesta quarta-feira (04)\, o são paulo empatou com o corint
+ hians por 0 a 0\, na vila belmiro\,...@morumbi-ical
+DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
+  informações: https://www.saopaulofc.net/na-vila-belmiro-sao-paulo-empat
+ a-com-corinthians-pelo-brasileirao/
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:TENTATIVE
