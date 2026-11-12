@@ -10,6 +10,16 @@ X-WR-CALDESC:Agenda do estádio MorumBIS (São Paulo FC). Jogos: fonte ofi
 X-WR-CALNAME:MorumBIS — Jogos e Eventos
 X-WR-TIMEZONE:America/Sao_Paulo
 BEGIN:VEVENT
+SUMMARY:⚽ Brasileirão 2026 x Fluminense — Brasileirão
+DTSTART;TZID=America/Sao_Paulo:20261119T213000
+DTEND;TZID=America/Sao_Paulo:20261120T000000
+UID:game-2026-11-19-brasileirão 2026-fluminense@morumbi-ical
+DESCRIPTION:Competição: Brasileirão\nLocal: MorumBIS
+LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
+  - SP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:⚽ São Paulo x Fluminense — Brasileirão
 DTSTART;TZID=America/Sao_Paulo:20261119T213000
 DTEND;TZID=America/Sao_Paulo:20261120T000000
@@ -31,9 +41,9 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤 Leia agora (a confirmar)
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
-UID:show-2026-11-11-leia agora@morumbi-ical
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+UID:show-2026-11-12-leia agora@morumbi-ical
 DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
   informações: https://www.saopaulofc.net/estreando-no-morumbis-dua-lipa-
  apresenta-sucessos-e-participacoes-brasileiras/
@@ -45,9 +55,9 @@ BEGIN:VEVENT
 SUMMARY:🎤 Em período de Data FIFA\, Tricolor disputa amistoso em Bauru
  Durante a pausa do Campeonato Brasileiro para a última Data FIFA de 2026
  \, o São Paulo disputará... (a confirmar)
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
-UID:show-2026-11-11-em período de data fifa\, tricolor disputa amistoso e
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+UID:show-2026-11-12-em período de data fifa\, tricolor disputa amistoso e
  m baurudurante a pausa do campeonato brasileiro para a última data fifa d
  e 2026\, o são paulo disputará...@morumbi-ical
 DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
@@ -58,33 +68,35 @@ LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎤 Sub-20 enfrenta o Ceará de olho em vaga na semifinal da Copa
-  do BrasilO time Sub-20 do São Paulo enfrenta o Ceará nesta quinta-feira
- \, às 15h\, no CFA Laudo Natel\,... (a confirmar)
+SUMMARY:🎤 São Paulo é superado pela Ferroviária e se despede do Paul
+ ista F Sub-20Neste domingo (08)\, o São Paulo foi superado pela Ferroviá
+ ria por 1 a 0\, na Fonte Luminosa\,... (a confirmar)
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-UID:show-2026-11-15-sub-20 enfrenta o ceará de olho em vaga na semifinal 
- da copa do brasilo time sub-20 do são paulo enfrenta o ceará nesta quint
- a-feira\, às 15h\, no cfa laudo natel\,...@morumbi-ical
+UID:show-2026-11-15-são paulo é superado pela ferroviária e se despede 
+ do paulista f sub-20neste domingo (08)\, o são paulo foi superado pela fe
+ rroviária por 1 a 0\, na fonte luminosa\,...@morumbi-ical
 DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
-  informações: https://www.saopaulofc.net/sub-20-enfrenta-o-ceara-de-olho
- -em-vaga-na-semifinal-da-copa-do-brasil/
+  informações: https://www.saopaulofc.net/sao-paulo-e-superado-pela-ferro
+ viaria-e-se-despede-do-paulista-f-sub-20/
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎤 Na Vila Belmiro\, São Paulo empata com Corinthians pelo Bras
- ileirãoNesta quarta-feira (04)\, o São Paulo empatou com o Corinthians p
- or 0 a 0\, na Vila Belmiro\,... (a confirmar)
-DTSTART;VALUE=DATE:20270411
-DTEND;VALUE=DATE:20270412
-UID:show-2027-04-11-na vila belmiro\, são paulo empata com corinthians pe
- lo brasileirãonesta quarta-feira (04)\, o são paulo empatou com o corint
- hians por 0 a 0\, na vila belmiro\,...@morumbi-ical
+SUMMARY:🎤 Sub-15 vence o Palmeiras e avança à semifinal do Paulista\;
+  Sub-17 supera o Corinthians fora de casaNeste sábado (7)\, as equipes Su
+ b-15 e Sub-17 do São Paulo venceram seus respectivos clássicos pelas qua
+ rtas... (a confirmar)
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270713
+UID:show-2027-07-12-sub-15 vence o palmeiras e avança à semifinal do pau
+ lista\; sub-17 supera o corinthians fora de casaneste sábado (7)\, as equ
+ ipes sub-15 e sub-17 do são paulo venceram seus respectivos clássicos pe
+ las quartas...@morumbi-ical
 DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
-  informações: https://www.saopaulofc.net/na-vila-belmiro-sao-paulo-empat
- a-com-corinthians-pelo-brasileirao/
+  informações: https://www.saopaulofc.net/sub-15-vence-o-palmeiras-e-avan
+ ca-a-semifinal-do-paulista-sub-17-supera-o-corinthians-fora-de-casa/
 LOCATION:Estádio MorumBIS\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo
   - SP
 STATUS:TENTATIVE
