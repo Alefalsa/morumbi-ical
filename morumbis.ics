@@ -41,9 +41,9 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎤 Leia agora (a confirmar)
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-UID:show-2026-11-12-leia agora@morumbi-ical
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+UID:show-2026-11-13-leia agora@morumbi-ical
 DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
   informações: https://www.saopaulofc.net/estreando-no-morumbis-dua-lipa-
  apresenta-sucessos-e-participacoes-brasileiras/
@@ -55,9 +55,9 @@ BEGIN:VEVENT
 SUMMARY:🎤 Em período de Data FIFA\, Tricolor disputa amistoso em Bauru
  Durante a pausa do Campeonato Brasileiro para a última Data FIFA de 2026
  \, o São Paulo disputará... (a confirmar)
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-UID:show-2026-11-12-em período de data fifa\, tricolor disputa amistoso e
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+UID:show-2026-11-13-em período de data fifa\, tricolor disputa amistoso e
  m baurudurante a pausa do campeonato brasileiro para a última data fifa d
  e 2026\, o são paulo disputará...@morumbi-ical
 DESCRIPTION:Fonte: São Paulo FC.\nConfiança da informação: alta.\nMais
@@ -88,9 +88,9 @@ SUMMARY:🎤 Sub-15 vence o Palmeiras e avança à semifinal do Paulista\;
   Sub-17 supera o Corinthians fora de casaNeste sábado (7)\, as equipes Su
  b-15 e Sub-17 do São Paulo venceram seus respectivos clássicos pelas qua
  rtas... (a confirmar)
-DTSTART;VALUE=DATE:20270712
-DTEND;VALUE=DATE:20270713
-UID:show-2027-07-12-sub-15 vence o palmeiras e avança à semifinal do pau
+DTSTART;VALUE=DATE:20270713
+DTEND;VALUE=DATE:20270714
+UID:show-2027-07-13-sub-15 vence o palmeiras e avança à semifinal do pau
  lista\; sub-17 supera o corinthians fora de casaneste sábado (7)\, as equ
  ipes sub-15 e sub-17 do são paulo venceram seus respectivos clássicos pe
  las quartas...@morumbi-ical
